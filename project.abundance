@@ -6,8 +6,63 @@
     "uniqueID": 1722895637464,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1722895646435,
+            "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.19114583333333332,
+            "y": 0.5623529411764706,
+            "uniqueID": 1722895718709,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 45
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.3848958333333333,
+            "y": 0.5623529411764706,
+            "uniqueID": 1722895730849,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722895718709
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 45
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1722895718709,
+            "ap2ID": 1722895730849
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
