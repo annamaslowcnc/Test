@@ -393,11 +393,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 650
+                                    "ioValue": 605
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 45
                                 },
                                 {
                                     "name": "zDist",
