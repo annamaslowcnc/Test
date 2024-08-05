@@ -130,7 +130,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 650
                                 },
                                 {
                                     "name": "yDist",
