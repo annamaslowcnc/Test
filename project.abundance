@@ -418,11 +418,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 515
+                                    "ioValue": 470
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 470
+                                    "ioValue": 425
                                 },
                                 {
                                     "name": "zDist",
@@ -433,8 +433,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.3151041666666667,
-                            "y": 0.3341176470588236,
+                            "x": 0.3125,
+                            "y": 0.32941176470588235,
                             "uniqueID": 1722896800061,
                             "ioValues": [
                                 {
@@ -443,11 +443,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 135
+                                    "ioValue": 180
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 470
+                                    "ioValue": 425
                                 },
                                 {
                                     "name": "zDist",
@@ -468,11 +468,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 45
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 45
                                 },
                                 {
                                     "name": "zDist",
