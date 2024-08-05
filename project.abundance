@@ -76,7 +76,12 @@
             "x": 0.42656249999999996,
             "y": 0.6870588235294118,
             "uniqueID": 1722895802754,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -602,9 +607,73 @@
                             "costUSD": null
                         }
                     ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.32916666666666666,
+                    "y": 0.411764705882353,
+                    "uniqueID": 1722897112193,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1722896799789
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1722895855194
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4630208333333333,
+                    "y": 0.3976470588235294,
+                    "uniqueID": 1722897182017,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1722897112193
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.6799999999999999,
+                    "uniqueID": 1722897202587,
+                    "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1722895855194,
+                    "ap2ID": 1722897112193
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1722896799789,
+                    "ap2ID": 1722897112193
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1722897112193,
+                    "ap2ID": 1722897182017
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
