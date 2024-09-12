@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1722895637464,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Diameter",
+            "ioValue": 12
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -23,57 +28,40 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.15208333333333335,
-            "y": 0.29411764705882354,
+            "x": 0.2786458333333333,
+            "y": 0.4329411764705882,
             "uniqueID": 1722895718709,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 45
-                }
-            ]
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.3265625,
-            "y": 0.31058823529411766,
-            "uniqueID": 1722895730849,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1722895718709
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 45
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 12
                 }
             ]
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.440625,
-            "y": 0.2611764705882353,
+            "x": 0.5776041666666667,
+            "y": 0.2988235294117647,
             "uniqueID": 1722895767792,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1722895730849
+                    "ioValue": 1722895718709
                 },
                 {
                     "name": "height",
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "Diameter",
+            "x": 0.013333333333333334,
+            "y": 0.41647058823529415,
+            "uniqueID": 1726166564421,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -82,13 +70,6 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1722895718709,
-            "ap2ID": 1722895730849
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1722895730849,
             "ap2ID": 1722895767792
         },
         {
@@ -97,9 +78,16 @@
             "ap2Primary": false,
             "ap1ID": 1722895767792,
             "ap2ID": 1722895646435
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1726166564421,
+            "ap2ID": 1722895718709
         }
     ],
-    "unitsKey": "MM",
+    "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
